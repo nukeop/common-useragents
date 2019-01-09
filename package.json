@@ -1,0 +1,30 @@
+{
+  "name": "common-useragents",
+  "version": "1.0.0",
+  "description": "Get a list of common useragents",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nukeop/common-useragents.git"
+  },
+  "keywords": [
+    "useragent",
+    "list"
+  ],
+  "author": "nukeop",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nukeop/common-useragents/issues"
+  },
+  "homepage": "https://github.com/nukeop/common-useragents#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "ava": "^1.0.1"
+  }
+}
